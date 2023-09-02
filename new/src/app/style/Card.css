@@ -1,0 +1,45 @@
+.blog {
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px;
+    
+  }
+  .heading {
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 10px;
+  }
+  
+  .img {
+    background-size: cover;
+  }
+  .para {
+    margin: 10px;
+  }
+  
+  .blog:hover {
+    background-color: rgba(199, 199, 194, 0.932);
+    color: rgba(6, 6, 6, 0.947);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+  
+  .block {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .title {
+    margin: 10px 50px
+  }
+  
+
+  li{
+    cursor:pointer;
+  }
